@@ -1,0 +1,68 @@
+.Cabeza{
+    display: inline;
+    top: 0;
+    width: 100%;
+    height:  100px;
+    background-color: white;
+    border: solid black 1px;
+
+}
+
+.Cabeza h1{
+    width: 50%;
+    margin-left: 33%;
+}
+
+.Cuerpo{
+    display: block;
+}
+
+.Foto{
+    background-color: white;
+    margin: 50px auto;
+    width: 33%;
+    height: auto;
+}
+
+.Foto .CabezaIMG{
+    width: 100%;
+    padding: 1px 4px;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.CabezaIMG em{
+    color: lightgray;
+    font-style: normal;
+}
+
+.CuerpoIMG{
+    width: 100%;
+    height: auto;
+}
+
+.CuerpoIMG img{
+    width: 100%;
+    height: 300px;
+    object-fit:contain;
+}
+
+.PieIMG{
+    height: 50px;
+    border-top: 1px lightgrey solid;
+    height: auto;
+    padding-bottom: 1px;
+}
+
+.PieIMG p{
+    align-self: auto;
+    margin-left: 20px;
+}
+
+body{
+    background-color: lightgray;
+}
